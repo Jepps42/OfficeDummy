@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] GameObject PauseMenu;
-    [SerializeField] GameObject PlayerUI;
+    //[SerializeField] GameObject PlayerUI;
     //[SerializeField] GameObject CheckList;
     //[SerializeField] GameObject Score;
 
@@ -64,7 +64,7 @@ public class UIManager : MonoBehaviour
     {
         ToggleCursor();
         PauseMenu.SetActive(false);
-        PlayerUI.SetActive(true);
+        //PlayerUI.SetActive(true);
         gamePaused = false;
     }
 
@@ -72,7 +72,7 @@ public class UIManager : MonoBehaviour
     {
         ToggleCursor();
         PauseMenu.SetActive(true);
-        PlayerUI.SetActive(false);
+        //PlayerUI.SetActive(false);
         gamePaused = true;
     }
 
