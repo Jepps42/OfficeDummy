@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class InputHandler : MonoBehaviour
 {
@@ -42,7 +43,7 @@ public class InputHandler : MonoBehaviour
         CharacterController.Rotate(lookVector);
 
         //Interact using input system
-
+        
 
     }
 
